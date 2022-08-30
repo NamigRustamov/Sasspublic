@@ -32,3 +32,91 @@
 .flex-no-wrap{
     flex-wrap: nowrap;
 }
+.align-items-center{
+    align-items: center;
+}
+
+// Paddins
+@each $size in $sizes{
+    .p-#{$size}{
+        padding: $size+px;
+    }
+}
+
+@each $size in $sizes{
+    .px-#{$size}{
+        padding: 0px $size+px !important;
+    }
+}
+
+@each $size in $sizes{
+    .py-#{$size}{
+        padding: $size+px 0px !important;
+    }
+}
+
+@each $size in $sizes{
+    .pt-#{$size}{
+        padding-top: $size+px !important;
+    }
+}
+
+@each $size in $sizes{
+    .pb-#{$size}{
+        padding-bottom: $size+px !important;
+    }
+}
+
+@each $size in $sizes{
+    .pl-#{$size}{
+        padding-left: $size+px !important;
+    }
+}
+
+@each $size in $sizes{
+    .pr-#{$size}{
+        padding-right: $size+px !important;
+    }
+}
+// Margins
+@each $size in $sizes{
+    .m-#{$size}{
+        margin: $size+px;
+    }
+}
+
+@each $size in $sizes{
+    .px-#{$size}{
+        margin: 0px $size+px !important;
+    }
+}
+
+@each $size in $sizes{
+    .py-#{$size}{
+        margin: $size+px 0px !important;
+    }
+}
+
+@each $size in $sizes{
+    .pt-#{$size}{
+        margin-top: $size+px !important;
+    }
+}
+
+@each $size in $sizes{
+    .pb-#{$size}{
+        margin-bottom: $size+px !important;
+    }
+}
+
+@each $size in $sizes{
+    .pl-#{$size}{
+        margin-left: $size+px !important;
+    }
+}
+
+@each $size in $sizes{
+    .pr-#{$size}{
+        margin-right: $size+px !important;
+    }
+}

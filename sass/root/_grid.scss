@@ -1,3 +1,7 @@
+.container,
+.row{
+  height: inherit;
+}
 .container{
     width: $container-width;
     margin: 0px auto;
@@ -5,6 +9,7 @@
 
 .container-full{
   width: 100%;
+  height: inherit;
 }
 
 .row{
@@ -36,7 +41,7 @@
     }
   }
 } 
-@media(min-width:$breakpoint-sm) {
+@media(min-width:$breakpoint-sm) and (max-width:$breakpoint-md) {
   .container{
     width: 100%;
   }
@@ -46,7 +51,7 @@
     }
   }
 }
-@media(min-width:$breakpoint-md) {
+@media(min-width:$breakpoint-md) and (max-width:$breakpoint-lg)  {
   .container{
     width: 100%;
   }
@@ -63,3 +68,7 @@
         width: calc((100% /12)*#{$i});
     }
 }}
+
+[class^="col-"]{
+  height: inherit;
+}

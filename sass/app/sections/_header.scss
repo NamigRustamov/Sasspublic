@@ -1,5 +1,4 @@
 #header{
-    border: 1px solid red;
     height: 100vh;
     background-image:url(../images/slider-img1-1200x600.jpg);
     background-size: cover;
@@ -11,10 +10,16 @@
         width: 100%;
         height: 100%;
         position:absolute;
+        top: 0px;
+        left: 0px;
         background: rgba(55,55,55,.6);
     }
     .header-navbar{
         border-bottom: 1px solid grey;
+        background: rgba(0,0,0,1);
+        z-index: 9;
+        width: inherit;
+        position: fixed;
         .header-navbar-nav{
             position: relative;
             z-index: 3;
@@ -53,6 +58,46 @@
                 text-transform: uppercase;
                 color: white;
             }
+        }
+        .header-slider{
+            position: inherit;
+            height: inherit;
+            .header-slider-item{
+                position: inherit;
+                height: inherit;
+                font-size: 10px;
+                .header-slide-content{
+                    transform: translate(0px, -90px);
+                    position: inherit;
+                    z-index: 6;
+                    
+                    h1{
+                        color: white;
+                        font-size: 6em;
+                        text-transform: uppercase;
+                        border-bottom: 10px solid #fdd947;
+                    }
+                    p{
+                        color: white;
+                        @extend .pt-35;
+                        text-transform: uppercase;
+                        font-size: 1.3em;
+                    }
+                }
+            }
+            .header-slider-controls{      
+                position: relative;  
+                z-index: 6;
+                bottom: 120px;
+                span{
+                    width: 50px;
+                    height: 5px;
+                    display: inline-block;
+                    background: white;
+                }            
+            }
+            
+            
         }
     }
 }

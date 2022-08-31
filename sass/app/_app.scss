@@ -1,1 +1,5 @@
+@import 'common';
 @import 'sections/sections';
+body{
+    font-family: $main-font;
+}

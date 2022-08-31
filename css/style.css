@@ -476,6 +476,7 @@ a {
 
 .container-full {
   width: 100%;
+  height: inherit;
 }
 
 .col-1 {
@@ -567,7 +568,7 @@ a {
     width: calc((100% /12)*12);
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 992px) {
   .container {
     width: 100%;
   }
@@ -608,7 +609,7 @@ a {
     width: calc((100% /12)*12);
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .container {
     width: 100%;
   }

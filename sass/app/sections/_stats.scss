@@ -1,0 +1,14 @@
+#stats{
+    .stat-item{
+        border: 1px solid lightgray;
+        text-align: center;
+        h4{
+            color: #626262;
+            text-transform: uppercase;
+            @extend .mt-20;
+        }
+        // &:last-child{
+        //     border-right: none;
+        // }
+    }
+}

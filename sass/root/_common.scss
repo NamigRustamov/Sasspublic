@@ -84,7 +84,41 @@
         margin: $size+px;
     }
 }
-
+@each $size in $sizes{
+    .mb-#{$size}{
+        margin-bottom: $size+px;
+    }
+}
+@each $size in $sizes{
+    .ml-#{$size}{
+        margin-left: $size+px;
+    }
+}
+@each $size in $sizes{
+    .mr-#{$size}{
+        margin-right: $size+px;
+    }
+}
+@each $size in $sizes{
+    .mb-#{$size}{
+        margin-bottom: $size+px;
+    }
+}
+@each $size in $sizes{
+    .mt-#{$size}{
+        margin-top: $size+px;
+    }
+}
+@each $size in $sizes{
+    .my-#{$size}{
+        margin: $size+px 0px;
+    }
+}
+@each $size in $sizes{
+    .mx-#{$size}{
+        margin: 0px $size+px;
+    }
+}
 @each $size in $sizes{
     .px-#{$size}{
         margin: 0px $size+px !important;

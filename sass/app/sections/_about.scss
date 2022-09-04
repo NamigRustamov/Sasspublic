@@ -4,7 +4,7 @@
         a{
             display: inline-block;
             @extend .p-15;
-            // @extend .mt-20;
+            @extend .mt-20;
             border: 1px solid black;
             text-transform: uppercase;
             transition: all .3s ease;

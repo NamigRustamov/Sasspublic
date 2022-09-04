@@ -24,7 +24,7 @@ a {
   text-decoration: none;
 }
 
-.flex, .column, .row {
+.flex, #header .header-navbar .header-navbar-action, #header .header-navbar .header-navbar-nav ul, .column, .row {
   display: flex;
 }
 
@@ -68,7 +68,7 @@ a {
   flex-wrap: nowrap;
 }
 
-.align-items-center {
+.align-items-center, #header .header-navbar .header-navbar-action, #header .header-navbar .header-navbar-nav ul {
   align-items: center;
 }
 
@@ -76,11 +76,11 @@ a {
   padding: 5px;
 }
 
-.p-10 {
+.p-10, #header .header-navbar .header-navbar-action a {
   padding: 10px;
 }
 
-.p-15 {
+.p-15, #about .about-info a {
   padding: 15px;
 }
 
@@ -96,7 +96,7 @@ a {
   padding: 30px;
 }
 
-.p-35 {
+.p-35, #features .features-details .features-details-item {
   padding: 35px;
 }
 
@@ -108,7 +108,7 @@ a {
   padding: 0px 10px !important;
 }
 
-.px-15 {
+.px-15, #header .header-navbar .header-navbar-nav ul li a {
   padding: 0px 15px !important;
 }
 
@@ -180,7 +180,7 @@ a {
   padding-top: 30px !important;
 }
 
-.pt-35 {
+.pt-35, #header .header-navbar .header-slider .header-slider-item .header-slide-content p {
   padding-top: 35px !important;
 }
 
@@ -192,7 +192,7 @@ a {
   padding-bottom: 10px !important;
 }
 
-.pb-15 {
+.pb-15, .section-heading {
   padding-bottom: 15px !important;
 }
 
@@ -296,6 +296,202 @@ a {
   margin: 35px;
 }
 
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20, #about .about-details i {
+  margin-bottom: 20px;
+}
+
+.mb-20, #about .about-details i {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-35, #about .about-details h4 {
+  margin-bottom: 35px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.ml-10, #header .header-navbar .header-navbar-action a {
+  margin-left: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.ml-35 {
+  margin-left: 35px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-35 {
+  margin-right: 35px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20, #about .about-details i {
+  margin-bottom: 20px;
+}
+
+.mb-20, #about .about-details i {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-35, #about .about-details h4 {
+  margin-bottom: 35px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20, #stats .stat-item h4 {
+  margin-top: 20px;
+}
+
+.mt-20, #stats .stat-item h4 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.my-5 {
+  margin: 5px 0px;
+}
+
+.my-10 {
+  margin: 10px 0px;
+}
+
+.my-15 {
+  margin: 15px 0px;
+}
+
+.my-20, #features .features-details .features-details-item h4 {
+  margin: 20px 0px;
+}
+
+.my-20, #features .features-details .features-details-item h4 {
+  margin: 20px 0px;
+}
+
+.my-30 {
+  margin: 30px 0px;
+}
+
+.my-35 {
+  margin: 35px 0px;
+}
+
+.mx-5 {
+  margin: 0px 5px;
+}
+
+.mx-10 {
+  margin: 0px 10px;
+}
+
+.mx-15 {
+  margin: 0px 15px;
+}
+
+.mx-20 {
+  margin: 0px 20px;
+}
+
+.mx-20 {
+  margin: 0px 20px;
+}
+
+.mx-30 {
+  margin: 0px 30px;
+}
+
+.mx-35 {
+  margin: 0px 35px;
+}
+
 .px-5 {
   margin: 0px 5px !important;
 }
@@ -304,7 +500,7 @@ a {
   margin: 0px 10px !important;
 }
 
-.px-15 {
+.px-15, #header .header-navbar .header-navbar-nav ul li a {
   margin: 0px 15px !important;
 }
 
@@ -376,7 +572,7 @@ a {
   margin-top: 30px !important;
 }
 
-.pt-35 {
+.pt-35, #header .header-navbar .header-slider .header-slider-item .header-slide-content p {
   margin-top: 35px !important;
 }
 
@@ -388,7 +584,7 @@ a {
   margin-bottom: 10px !important;
 }
 
-.pb-15 {
+.pb-15, .section-heading {
   margin-bottom: 15px !important;
 }
 
@@ -692,4 +888,204 @@ a {
   height: inherit;
 }
 
-@im @import "sections/sections";
+.section-spacing {
+  padding: 70px 0px;
+}
+
+.section-heading {
+  text-transform: uppercase;
+  font-size: 3em;
+  border-bottom: 5px solid #fdd947;
+  display: inline-block;
+}
+
+.font-size-small, #about .about-details p {
+  font-size: 0.8em;
+}
+
+.font-size-medium {
+  font-size: 1em;
+}
+
+.font-size-large {
+  font-size: 1.2em;
+}
+
+.font-size-extra-large {
+  font-size: 1.5em;
+}
+
+.text-color-standart {
+  color: black;
+}
+
+.text-color-secondary, #about .about-details p {
+  color: grey;
+}
+
+#header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/slider-img1-1200x600.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+#header:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(55, 55, 55, 0.6);
+}
+#header .header-navbar {
+  border-bottom: 1px solid grey;
+  background: rgb(0, 0, 0);
+  z-index: 9;
+  width: inherit;
+  position: fixed;
+}
+#header .header-navbar .header-navbar-nav {
+  position: relative;
+  z-index: 3;
+}
+#header .header-navbar .header-navbar-nav ul img {
+  width: 165px;
+}
+#header .header-navbar .header-navbar-nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+#header .header-navbar .header-navbar-action {
+  position: relative;
+  z-index: 3;
+}
+#header .header-navbar .header-navbar-action span {
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8em;
+}
+#header .header-navbar .header-navbar-action a {
+  border: 1px solid white;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: white;
+}
+#header .header-navbar .header-slider {
+  position: inherit;
+  height: inherit;
+}
+#header .header-navbar .header-slider .header-slider-item {
+  position: inherit;
+  height: inherit;
+  font-size: 10px;
+}
+#header .header-navbar .header-slider .header-slider-item .header-slide-content {
+  transform: translate(0px, -90px);
+  position: inherit;
+  z-index: 6;
+}
+#header .header-navbar .header-slider .header-slider-item .header-slide-content h1 {
+  color: white;
+  font-size: 6em;
+  text-transform: uppercase;
+  border-bottom: 10px solid #fdd947;
+}
+#header .header-navbar .header-slider .header-slider-item .header-slide-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+#header .header-navbar .header-slider .header-slider-controls {
+  position: relative;
+  z-index: 6;
+  bottom: 120px;
+}
+#header .header-navbar .header-slider .header-slider-controls span {
+  width: 50px;
+  height: 5px;
+  display: inline-block;
+  background: white;
+}
+
+#about .about-info a {
+  display: inline-block;
+  border: 1px solid black;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+#about .about-info a:hover {
+  background: black;
+  color: white;
+}
+#about .about-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+#about .about-details i {
+  color: #cdcdcd;
+  font-size: 2.5em;
+}
+#about .about-details h4 {
+  position: relative;
+}
+#about .about-details h4:after {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 5px;
+  background: #fdd947;
+  position: absolute;
+  top: 35px;
+  left: 0px;
+}
+#stats .stat-item {
+  border: 1px solid lightgray;
+  text-align: center;
+}
+#stats .stat-item h4 {
+  color: #626262;
+  text-transform: uppercase;
+}
+
+#features .features-image {
+  height: 100%;
+  background-image: url(../images/parallax-img1-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center 200px;
+}
+#features .features-details {
+  background: #f6f6f6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+#features .features-details .features-details-item {
+  border: 5px solid transparent;
+  text-align: center;
+  height: 100px;
+  transition: all 0.3s ease;
+}
+#features .features-details .features-details-item:hover {
+  border-color: #fdd947;
+  background: white;
+}
+#features .features-details .features-details-item i {
+  color: #fdd947;
+  font-size: 3em;
+}
+#features .features-details .features-details-item p {
+  font-size: 0.8em;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}

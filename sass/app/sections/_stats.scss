@@ -1,4 +1,5 @@
 #stats{
+    
     .stat-item{
         border: 1px solid lightgray;
         text-align: center;
@@ -7,6 +8,7 @@
             text-transform: uppercase;
             @extend .mt-20;
         }
+        
         // &:last-child{
         //     border-right: none;
         // }

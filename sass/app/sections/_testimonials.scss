@@ -1,0 +1,25 @@
+#testimonials{
+    .testimonials-item{
+        text-align: center;
+        @extend p-35;
+                
+        img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            @extend .mb-20;
+        }
+        p{
+            color: grey;
+        }
+        i{
+            color: #fdd947;
+            font-size: 3em;            
+        }
+        h3{
+            @extend .my-20;
+            font-size: .9em;
+        }
+    }
+}

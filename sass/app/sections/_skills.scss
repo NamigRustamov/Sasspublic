@@ -1,0 +1,63 @@
+#skills{
+    .skills-heading{  
+        height: inherit;
+        background: black;
+        @extend .p-35;
+        box-sizing: border-box;
+        @extend .flex;
+        @extend .justify-content-center;
+        @extend .align-items-center;
+        h3{
+            color: white;
+            text-transform: uppercase;
+            font-weight: normal;
+            
+        }     
+    }
+    .skills-image{
+        height: inherit;
+        width: 100%;
+        background-image: url(https://brandowp.b-cdn.net/agency/wp-content/uploads/sites/2/2016/01/agency-img1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        &:after{
+            content:'';
+            display: block;
+            height: 90%;
+            width: 90%;
+            border: 5px solid white;
+            position: absolute;
+            top: 5%;
+            left: 5%;
+        }
+    }
+    .skills-detail{
+        background: rgb(235, 235, 235);  
+        @extend .p-35;
+        height: inherit;
+        box-sizing: border-box;
+        .skills-detail-item{
+            @extend .my-30;
+            span{
+                @extend .mt-20;
+                display: inline-block;
+            }
+            div{
+                height: 5px;
+                width: 100%;
+                background: lightgrey;
+                position: relative;
+                div{
+                    height: 100%;
+                    background: black;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                }
+                
+            }
+        }      
+    }
+}
